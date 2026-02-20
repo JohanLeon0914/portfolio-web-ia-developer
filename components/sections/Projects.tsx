@@ -69,16 +69,16 @@ export default function Projects() {
                 <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-accent to-transparent opacity-60" />
               )}
 
-              <div className="p-8 md:p-10">
+              <div className="p-6 md:p-8 lg:p-10">
                 {/* Header */}
-                <div className="flex items-start justify-between gap-4 mb-6">
+                <div className="flex flex-col md:flex-row md:items-start justify-between gap-4 mb-6">
                   <div>
                     {project.featured && (
                       <span className="inline-block text-xs font-mono text-accent-3 mb-2 uppercase tracking-widest">
                         ★ featured
                       </span>
                     )}
-                    <h3 className="font-display font-bold text-3xl text-text">
+                    <h3 className="font-display font-bold text-2xl md:text-3xl text-text">
                       {locale === "es" ? project.titleEs : project.title}
                     </h3>
                     <p className="text-accent text-sm font-medium mt-1">
@@ -87,13 +87,13 @@ export default function Projects() {
                   </div>
 
                   {/* Links */}
-                  <div className="flex gap-2 flex-shrink-0">
+                  <div className="flex gap-2 flex-shrink-0 mt-4 md:mt-0">
                     {project.landingUrl && (
                       <a
                         href={project.landingUrl}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg border border-border text-muted text-xs font-medium hover:text-text hover:border-text/30 transition-all"
+                        className="flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg border border-border text-muted text-xs font-medium hover:text-text hover:border-text/30 transition-all whitespace-nowrap"
                       >
                         <ExternalLink size={12} />
                         {t("projects.viewLanding")}
@@ -104,7 +104,7 @@ export default function Projects() {
                         href={project.appUrl}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-accent/10 border border-accent/30 text-accent text-xs font-medium hover:bg-accent/20 transition-all"
+                        className="flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg bg-accent/10 border border-accent/30 text-accent text-xs font-medium hover:bg-accent/20 transition-all whitespace-nowrap"
                       >
                         <ArrowUpRight size={12} />
                         {t("projects.viewApp")}
@@ -114,11 +114,11 @@ export default function Projects() {
                 </div>
 
                 {/* Description */}
-                <p className="text-muted leading-relaxed mb-8 max-w-2xl">
+                <p className="text-muted leading-relaxed mb-6 md:mb-8 max-w-none md:max-w-2xl">
                   {locale === "es" ? project.descriptionEs : project.description}
                 </p>
 
-                <div className="grid md:grid-cols-2 gap-8">
+                <div className="grid md:grid-cols-2 gap-6 lg:gap-8">
                   {/* Role & highlights */}
                   <div>
                     <h4 className="font-mono text-xs text-accent uppercase tracking-wider mb-3">

@@ -60,16 +60,16 @@ export default function Hero() {
         </h1>
 
         {/* Role */}
-        <p
-          className="font-display text-xl md:text-2xl font-medium text-muted mt-4 mb-8"
+        <div
+          className="font-display text-xl md:text-2xl font-medium text-muted mt-4 mb-8 flex flex-col md:flex-row md:items-center gap-2 md:gap-3"
           style={{ animation: "slideUp 0.6s ease 0.3s both" }}
         >
-          Full Stack Web Developer
-          <span className="mx-3 text-border">·</span>
-          <span className="text-accent-2 font-mono text-base md:text-lg">
+          <span className="text-xl md:text-2xl">Full Stack Web Developer</span>
+          <span className="hidden md:inline text-border">·</span>
+          <span className="text-accent-2 font-mono text-xl md:text-2xl">
             {locale === "en" ? "Google Cloud + AI" : "Google Cloud + IA"}
           </span>
-        </p>
+        </div>
 
         {/* Bio */}
         <p

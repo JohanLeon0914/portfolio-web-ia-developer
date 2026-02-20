@@ -80,18 +80,6 @@ export default function Contact() {
             </a>
           ))}
         </div>
-
-        {/* Email CTA */}
-        <div className="mt-14">
-          <a
-            href="mailto:johanleon991@gmail.com"
-            className="btn-shine inline-flex items-center gap-3 px-8 py-4 rounded-xl bg-gradient-to-r from-accent/20 via-accent-2/20 to-accent-3/20 border border-white/10 text-text font-display font-semibold hover:from-accent/30 hover:via-accent-2/30 hover:to-accent-3/30 transition-all text-lg"
-          >
-            <Mail size={18} className="text-accent" />
-            johanleon991@gmail.com
-            <ArrowUpRight size={15} className="text-muted" />
-          </a>
-        </div>
       </div>
     </section>
   );
