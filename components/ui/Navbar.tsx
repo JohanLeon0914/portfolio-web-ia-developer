@@ -19,6 +19,7 @@ export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
   const [activeSection, setActiveSection] = useState("");
+  const [cvUrl, setCvUrl] = useState("/cv/Johan_Alberto_Leon_Desarrollador_Web_EN.pdf");
 
   useEffect(() => {
     const handleScroll = () => {
@@ -37,6 +38,14 @@ export default function Navbar() {
     window.addEventListener("scroll", handleScroll, { passive: true });
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
+
+  useEffect(() => {
+    // Update CV URL based on locale
+    setCvUrl(locale === "es" 
+      ? "/cv/Johan_Alberto_Leon_Desarrollador_Web_ES.pdf" 
+      : "/cv/Johan_Alberto_Leon_Desarrollador_Web_EN.pdf"
+    );
+  }, [locale]);
 
   return (
     <>
@@ -95,7 +104,7 @@ export default function Navbar() {
 
             {/* Download CV */}
             <a
-              href="/cv/Johan_Alberto_Leon_Desarrollador_Web_EN.pdf"
+              href={cvUrl}
               download
               className="hidden md:flex items-center gap-1.5 px-3 py-1.5 rounded border border-accent/30 text-accent text-sm font-medium hover:bg-accent/10 transition-all btn-shine"
             >
@@ -132,7 +141,7 @@ export default function Navbar() {
             ))}
           </ul>
           <a
-            href="/cv/Johan_Alberto_Leon_Desarrollador_Web_EN.pdf"
+            href={cvUrl}
             download
             className="mt-6 flex items-center justify-center gap-2 py-3 rounded-lg border border-accent/30 text-accent font-medium hover:bg-accent/10 transition-all"
             onClick={() => setMobileOpen(false)}
