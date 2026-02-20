@@ -55,7 +55,7 @@ export default function Certificates() {
         {/* Section label */}
         <div className="flex items-center gap-4 mb-12">
           <span className="font-mono text-xs text-yellow-400 tracking-widest uppercase">
-            05 / certificates
+            {t("sectionLabels.certificates")}
           </span>
           <div className="flex-1 h-px bg-border" />
         </div>

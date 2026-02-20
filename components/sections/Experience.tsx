@@ -11,6 +11,7 @@ interface Job {
   company: string;
   role: string;
   period: string;
+  periodEs: string;
   current: boolean;
   description: string;
   descriptionEs: string;
@@ -42,7 +43,7 @@ export default function Experience() {
         {/* Section label */}
         <div className="flex items-center gap-4 mb-12">
           <span className="font-mono text-xs text-accent-2 tracking-widest uppercase">
-            02 / experience
+            {t("sectionLabels.experience")}
           </span>
           <div className="flex-1 h-px bg-border" />
         </div>
@@ -94,7 +95,9 @@ export default function Experience() {
                         )}
                       </div>
                       <p className="text-accent-2 font-medium text-sm mt-0.5">{job.company}</p>
-                      <p className="text-muted text-xs font-mono mt-1">{job.period}</p>
+                      <p className="text-muted text-xs font-mono mt-1">
+                        {locale === "es" ? job.periodEs : job.period}
+                      </p>
                     </div>
                   </div>
 

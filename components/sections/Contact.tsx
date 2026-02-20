@@ -46,7 +46,7 @@ export default function Contact() {
         <div className="flex items-center gap-4 mb-12">
           <div className="flex-1 h-px bg-border" />
           <span className="font-mono text-xs text-accent-2 tracking-widest uppercase">
-            06 / contact
+            {t("sectionLabels.contact")}
           </span>
           <div className="flex-1 h-px bg-border" />
         </div>

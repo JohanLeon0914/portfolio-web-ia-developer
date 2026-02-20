@@ -8,6 +8,14 @@
     "contact": "Contacto",
     "downloadCV": "Descargar CV"
   },
+  "sectionLabels": {
+    "about": "01 / sobre mí",
+    "experience": "02 / experiencia",
+    "projects": "03 / proyectos",
+    "skills": "04 / habilidades",
+    "certificates": "05 / certificados",
+    "contact": "06 / contacto"
+  },
   "hero": {
     "greeting": "Hola, soy",
     "available": "Disponible para trabajar",

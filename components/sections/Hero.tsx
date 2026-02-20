@@ -66,7 +66,9 @@ export default function Hero() {
         >
           Full Stack Web Developer
           <span className="mx-3 text-border">·</span>
-          <span className="text-accent-2 font-mono text-base md:text-lg">Google Cloud + AI</span>
+          <span className="text-accent-2 font-mono text-base md:text-lg">
+            {locale === "en" ? "Google Cloud + AI" : "Google Cloud + IA"}
+          </span>
         </p>
 
         {/* Bio */}

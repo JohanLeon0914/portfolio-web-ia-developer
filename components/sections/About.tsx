@@ -22,7 +22,7 @@ export default function About() {
         {/* Section label */}
         <div className="flex items-center gap-4 mb-12">
           <span className="font-mono text-xs text-accent tracking-widest uppercase">
-            01 / about
+            {t("sectionLabels.about")}
           </span>
           <div className="flex-1 h-px bg-border" />
         </div>

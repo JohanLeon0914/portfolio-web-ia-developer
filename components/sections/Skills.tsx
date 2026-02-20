@@ -45,7 +45,7 @@ export default function Skills() {
         {/* Section label */}
         <div className="flex items-center gap-4 mb-12">
           <span className="font-mono text-xs text-accent-3 tracking-widest uppercase">
-            04 / skills
+            {t("sectionLabels.skills")}
           </span>
           <div className="flex-1 h-px bg-border" />
         </div>

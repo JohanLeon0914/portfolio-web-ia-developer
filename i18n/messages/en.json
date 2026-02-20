@@ -8,6 +8,14 @@
     "contact": "Contact",
     "downloadCV": "Download CV"
   },
+  "sectionLabels": {
+    "about": "01 / about",
+    "experience": "02 / experience",
+    "projects": "03 / projects",
+    "skills": "04 / skills",
+    "certificates": "05 / certificates",
+    "contact": "06 / contact"
+  },
   "hero": {
     "greeting": "Hello, I'm",
     "available": "Available for work",
