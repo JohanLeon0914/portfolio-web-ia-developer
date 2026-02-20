@@ -76,7 +76,7 @@ export default function Hero() {
         >
           {locale === "en"
             ? "Building enterprise applications with cloud-based solutions, AI integration and clean, scalable code."
-            : "Construyendo aplicaciones empresariales con soluciones cloud, integración de IA, código limpio y escalable."}
+            : "Construyo aplicaciones empresariales con soluciones cloud e integración de IA, enfocadas en código limpio y escalable."}
         </p>
 
         {/* CTAs */}
