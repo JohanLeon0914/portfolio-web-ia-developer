@@ -1,0 +1,20 @@
+[
+  {
+    "id": "radicopilot",
+    "title": "RadiCopilot",
+    "tagline": "AI-Powered Radiology Reporting Platform",
+    "description": "A specialized web application for radiologists that leverages artificial intelligence to automate and streamline the generation of diagnostic reports. Radiologists can input findings and have complete, structured reports generated instantly — reducing dictation time and minimizing burnout.",
+    "longDescription": "RadiCopilot transforms the radiology workflow by integrating AI models directly into the reporting process. The platform allows radiologists to focus on interpreting images rather than administrative dictation, generating high-quality, standardized reports with a single workflow.",
+    "tags": ["AI", "Healthcare", "Next.js", "Google Cloud", "Vertex AI", "PostgreSQL"],
+    "landingUrl": "https://radicopilot.com",
+    "appUrl": "https://app.radicopilot.com",
+    "featured": true,
+    "role": "Full Stack Developer",
+    "highlights": [
+      "AI-automated radiology report generation",
+      "Intelligent data extraction from medical records",
+      "Cloud-based infrastructure on Google Cloud",
+      "Real-time report generation and editing"
+    ]
+  }
+]

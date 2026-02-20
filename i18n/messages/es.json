@@ -1,0 +1,73 @@
+{
+  "nav": {
+    "about": "Sobre mí",
+    "experience": "Experiencia",
+    "projects": "Proyectos",
+    "skills": "Habilidades",
+    "certificates": "Certificados",
+    "contact": "Contacto",
+    "downloadCV": "Descargar CV"
+  },
+  "hero": {
+    "greeting": "Hola, soy",
+    "available": "Disponible para trabajar",
+    "cta": "Ver mi trabajo",
+    "ctaContact": "Contáctame",
+    "scrollDown": "Scroll hacia abajo"
+  },
+  "about": {
+    "title": "Sobre mí",
+    "subtitle": "Un desarrollador apasionado por construir cosas que importan",
+    "education": "Educación",
+    "currently": "Actualmente estudiando"
+  },
+  "experience": {
+    "title": "Experiencia Laboral",
+    "subtitle": "Mi trayectoria profesional",
+    "responsibilities": "Responsabilidades",
+    "achievements": "Logros Clave"
+  },
+  "projects": {
+    "title": "Proyectos",
+    "subtitle": "Cosas que he construido",
+    "viewLanding": "Landing Page",
+    "viewApp": "Abrir App",
+    "viewProject": "Ver Proyecto",
+    "role": "Mi Rol",
+    "highlights": "Destacados",
+    "builtWith": "Construido con"
+  },
+  "skills": {
+    "title": "Habilidades",
+    "subtitle": "Tecnologías con las que trabajo",
+    "frontend": "Frontend",
+    "backend": "Backend y Bases de datos",
+    "cloud": "Cloud y DevOps",
+    "tools": "Herramientas y otros"
+  },
+  "certificates": {
+    "title": "Certificados",
+    "subtitle": "Aprendizaje continuo",
+    "viewPdf": "Ver Certificado",
+    "hours": "horas",
+    "all": "Todos",
+    "categories": {
+      "Machine Learning": "Machine Learning",
+      "Data Science": "Data Science",
+      "Programming": "Programación",
+      "Mathematics": "Matemáticas"
+    }
+  },
+  "contact": {
+    "title": "Trabajemos Juntos",
+    "subtitle": "¿Tienes un proyecto en mente? Hablemos.",
+    "email": "Escríbeme un correo",
+    "linkedin": "Conectar en LinkedIn",
+    "github": "Ver mi GitHub",
+    "or": "o"
+  },
+  "footer": {
+    "made": "Diseñado y construido por",
+    "rights": "Todos los derechos reservados."
+  }
+}

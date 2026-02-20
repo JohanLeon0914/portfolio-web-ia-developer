@@ -1,0 +1,73 @@
+{
+  "nav": {
+    "about": "About",
+    "experience": "Experience",
+    "projects": "Projects",
+    "skills": "Skills",
+    "certificates": "Certificates",
+    "contact": "Contact",
+    "downloadCV": "Download CV"
+  },
+  "hero": {
+    "greeting": "Hello, I'm",
+    "available": "Available for work",
+    "cta": "View My Work",
+    "ctaContact": "Get in Touch",
+    "scrollDown": "Scroll down"
+  },
+  "about": {
+    "title": "About Me",
+    "subtitle": "A developer passionate about building things that matter",
+    "education": "Education",
+    "currently": "Currently studying"
+  },
+  "experience": {
+    "title": "Work Experience",
+    "subtitle": "My professional journey",
+    "responsibilities": "Responsibilities",
+    "achievements": "Key Achievements"
+  },
+  "projects": {
+    "title": "Projects",
+    "subtitle": "Things I've built",
+    "viewLanding": "Landing Page",
+    "viewApp": "Launch App",
+    "viewProject": "View Project",
+    "role": "My Role",
+    "highlights": "Highlights",
+    "builtWith": "Built with"
+  },
+  "skills": {
+    "title": "Skills",
+    "subtitle": "Technologies I work with",
+    "frontend": "Frontend",
+    "backend": "Backend & Databases",
+    "cloud": "Cloud & DevOps",
+    "tools": "Tools & Other"
+  },
+  "certificates": {
+    "title": "Certificates",
+    "subtitle": "Continuous learning",
+    "viewPdf": "View Certificate",
+    "hours": "hours",
+    "all": "All",
+    "categories": {
+      "Machine Learning": "Machine Learning",
+      "Data Science": "Data Science",
+      "Programming": "Programming",
+      "Mathematics": "Mathematics"
+    }
+  },
+  "contact": {
+    "title": "Let's Work Together",
+    "subtitle": "Got a project in mind? Let's talk.",
+    "email": "Send me an email",
+    "linkedin": "Connect on LinkedIn",
+    "github": "See my GitHub",
+    "or": "or"
+  },
+  "footer": {
+    "made": "Designed & built by",
+    "rights": "All rights reserved."
+  }
+}

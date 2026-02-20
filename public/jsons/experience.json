@@ -1,0 +1,63 @@
+[
+  {
+    "id": "glocation",
+    "company": "GLocation",
+    "role": "Full Stack Web Developer",
+    "period": "April 2025 — January 2026",
+    "current": false,
+    "description": "Full stack web developer focused on the maintenance, optimization, and evolution of enterprise applications. Developed cloud-based solutions on Google Cloud, managing cloud functions and AI models for automatic data extraction and process automation.",
+    "responsibilities": [
+      "Development and maintenance of frontend and backend features in enterprise web applications",
+      "Management and optimization of AI models for process automation in Google Cloud Functions",
+      "Development and deployment of Cloud Functions including scheduling automated tasks",
+      "Management and querying of PostgreSQL and BigQuery databases",
+      "Implementation and correction of complex business rules and system validations"
+    ],
+    "achievements": [
+      "Implemented automated cloud processes using Cloud Functions and schedulers, reducing manual tasks",
+      "Developed an AI-based solution for automatic data extraction in a production project",
+      "Resolved critical business logic errors that directly impacted system operations"
+    ],
+    "tags": ["Google Cloud", "Node.js", "PostgreSQL", "BigQuery", "AI/ML", "Cloud Functions"]
+  },
+  {
+    "id": "htex",
+    "company": "HTEX S.A.S",
+    "role": "Full Stack Developer",
+    "period": "January 2024 — October 2024",
+    "current": false,
+    "description": "Web application developer responsible for structuring, planning, and launching production-ready web applications. In charge of component creation, SEO improvements, and AWS resource management.",
+    "responsibilities": [
+      "Design interfaces that meet user experience requirements",
+      "Integrate business logic into application functionalities",
+      "Gather and integrate requirements for web applications",
+      "Maintain and optimize AWS resources"
+    ],
+    "achievements": [
+      "Automated creation of personal websites for company associates",
+      "Increased productivity by up to 80% in internal processes such as sales management",
+      "Improved graphical interface quality in terms of usability for enterprise applications"
+    ],
+    "tags": ["React", "Next.js", "AWS", "TypeScript", "SEO"]
+  },
+  {
+    "id": "millenium",
+    "company": "Millenium Group",
+    "role": "Web Developer",
+    "period": "January 2023 — May 2023",
+    "current": false,
+    "description": "Developer of user interface components and business logic using React, Angular, and Next.js. Primarily responsible for designing and implementing business logic for multiple applications.",
+    "responsibilities": [
+      "Design new user interface components from scratch",
+      "Maintain existing codebases in company applications",
+      "Integrate business logic into application features",
+      "Implement UI component workflows and interaction logic"
+    ],
+    "achievements": [
+      "Optimized interfaces, achieving up to 50% faster load times",
+      "Improved usability, reducing the number of required clicks by up to 20%",
+      "Enhanced legacy code quality, reducing code size by up to 30%"
+    ],
+    "tags": ["React", "Angular", "Next.js", "JavaScript"]
+  }
+]
