@@ -2,19 +2,30 @@
   {
     "id": "radicopilot",
     "title": "RadiCopilot",
+    "titleEs": "RadiCopilot",
     "tagline": "AI-Powered Radiology Reporting Platform",
+    "taglineEs": "Plataforma de Informes de Radiología con IA",
     "description": "A specialized web application for radiologists that leverages artificial intelligence to automate and streamline the generation of diagnostic reports. Radiologists can input findings and have complete, structured reports generated instantly — reducing dictation time and minimizing burnout.",
+    "descriptionEs": "Una aplicación web especializada para radiólogos que utiliza inteligencia artificial para automatizar y optimizar la generación de informes de diagnóstico. Los radiólogos pueden ingresar hallazgos y obtener informes completos y estructurados al instante, reduciendo el tiempo de dictado y minimizando el agotamiento.",
     "longDescription": "RadiCopilot transforms the radiology workflow by integrating AI models directly into the reporting process. The platform allows radiologists to focus on interpreting images rather than administrative dictation, generating high-quality, standardized reports with a single workflow.",
+    "longDescriptionEs": "RadiCopilot transforma el flujo de trabajo de radiología integrando modelos de IA directamente en el proceso de informes. La plataforma permite a los radiólogos centrarse en interpretar imágenes en lugar de la dictación administrativa, generando informes de alta calidad y estandarizados con un único flujo de trabajo.",
     "tags": ["AI", "Healthcare", "Next.js", "Google Cloud", "Vertex AI", "PostgreSQL"],
     "landingUrl": "https://radicopilot.com",
     "appUrl": "https://app.radicopilot.com",
     "featured": true,
     "role": "Full Stack Developer",
+    "roleEs": "Desarrollador Full Stack",
     "highlights": [
       "AI-automated radiology report generation",
       "Intelligent data extraction from medical records",
       "Cloud-based infrastructure on Google Cloud",
       "Real-time report generation and editing"
+    ],
+    "highlightsEs": [
+      "Generación de informes de radiología automatizada con IA",
+      "Extracción inteligente de datos de registros médicos",
+      "Infraestructura basada en la nube en Google Cloud",
+      "Generación y edición de informes en tiempo real"
     ]
   }
 ]

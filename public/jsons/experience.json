@@ -6,6 +6,7 @@
     "period": "April 2025 — January 2026",
     "current": false,
     "description": "Full stack web developer focused on the maintenance, optimization, and evolution of enterprise applications. Developed cloud-based solutions on Google Cloud, managing cloud functions and AI models for automatic data extraction and process automation.",
+    "descriptionEs": "Desarrollador web full stack enfocado en el mantenimiento, optimización y evolución de aplicaciones empresariales. Desarrollé soluciones basadas en la nube en Google Cloud, gestionando cloud functions y modelos de IA para extracción automática de datos y automatización de procesos.",
     "responsibilities": [
       "Development and maintenance of frontend and backend features in enterprise web applications",
       "Management and optimization of AI models for process automation in Google Cloud Functions",
@@ -13,10 +14,22 @@
       "Management and querying of PostgreSQL and BigQuery databases",
       "Implementation and correction of complex business rules and system validations"
     ],
+    "responsibilitiesEs": [
+      "Desarrollo y mantenimiento de características frontend y backend en aplicaciones web empresariales",
+      "Gestión y optimización de modelos de IA para automatización de procesos en Google Cloud Functions",
+      "Desarrollo y despliegue de Cloud Functions incluyendo programación de tareas automatizadas",
+      "Gestión y consulta de bases de datos PostgreSQL y BigQuery",
+      "Implementación y corrección de reglas de negocio complejas y validaciones del sistema"
+    ],
     "achievements": [
       "Implemented automated cloud processes using Cloud Functions and schedulers, reducing manual tasks",
       "Developed an AI-based solution for automatic data extraction in a production project",
       "Resolved critical business logic errors that directly impacted system operations"
+    ],
+    "achievementsEs": [
+      "Implementé procesos automatizados en la nube usando Cloud Functions y programadores, reduciendo tareas manuales",
+      "Desarrollé una solución basada en IA para extracción automática de datos en un proyecto de producción",
+      "Resolví errores críticos de lógica de negocio que impactaban directamente las operaciones del sistema"
     ],
     "tags": ["Google Cloud", "Node.js", "PostgreSQL", "BigQuery", "AI/ML", "Cloud Functions"]
   },
@@ -27,16 +40,28 @@
     "period": "January 2024 — October 2024",
     "current": false,
     "description": "Web application developer responsible for structuring, planning, and launching production-ready web applications. In charge of component creation, SEO improvements, and AWS resource management.",
+    "descriptionEs": "Desarrollador de aplicaciones web responsable de estructurar, planificar y lanzar aplicaciones web listas para producción. Encargado de la creación de componentes, mejoras SEO y gestión de recursos de AWS.",
     "responsibilities": [
       "Design interfaces that meet user experience requirements",
       "Integrate business logic into application functionalities",
       "Gather and integrate requirements for web applications",
       "Maintain and optimize AWS resources"
     ],
+    "responsibilitiesEs": [
+      "Diseñar interfaces que cumplen con los requisitos de experiencia de usuario",
+      "Integrar lógica de negocio en las funcionalidades de las aplicaciones",
+      "Recopilar e integrar requisitos para aplicaciones web",
+      "Mantener y optimizar recursos de AWS"
+    ],
     "achievements": [
       "Automated creation of personal websites for company associates",
       "Increased productivity by up to 80% in internal processes such as sales management",
       "Improved graphical interface quality in terms of usability for enterprise applications"
+    ],
+    "achievementsEs": [
+      "Automatización de la creación de sitios web personales para asociados de la empresa",
+      "Incrementé la productividad hasta en un 80% en procesos internos como la gestión de ventas",
+      "Mejoré la calidad de la interfaz gráfica en términos de usabilidad para aplicaciones empresariales"
     ],
     "tags": ["React", "Next.js", "AWS", "TypeScript", "SEO"]
   },
@@ -47,16 +72,28 @@
     "period": "January 2023 — May 2023",
     "current": false,
     "description": "Developer of user interface components and business logic using React, Angular, and Next.js. Primarily responsible for designing and implementing business logic for multiple applications.",
+    "descriptionEs": "Desarrollador de componentes de interfaz de usuario y lógica de negocio usando React, Angular y Next.js. Principalmente responsable de diseñar e implementar lógica de negocio para múltiples aplicaciones.",
     "responsibilities": [
       "Design new user interface components from scratch",
       "Maintain existing codebases in company applications",
       "Integrate business logic into application features",
       "Implement UI component workflows and interaction logic"
     ],
+    "responsibilitiesEs": [
+      "Diseñar nuevos componentes de interfaz de usuario desde cero",
+      "Mantener bases de código existentes en aplicaciones de la empresa",
+      "Integrar lógica de negocio en las características de las aplicaciones",
+      "Implementar flujos de trabajo de componentes UI y lógica de interacción"
+    ],
     "achievements": [
       "Optimized interfaces, achieving up to 50% faster load times",
       "Improved usability, reducing the number of required clicks by up to 20%",
       "Enhanced legacy code quality, reducing code size by up to 30%"
+    ],
+    "achievementsEs": [
+      "Optimicé interfaces, logrando tiempos de carga hasta un 50% más rápidos",
+      "Mejoré la usabilidad, reduciendo el número de clics requeridos hasta en un 20%",
+      "Mejoré la calidad del código heredado, reduciendo el tamaño del código hasta en un 30%"
     ],
     "tags": ["React", "Angular", "Next.js", "JavaScript"]
   }

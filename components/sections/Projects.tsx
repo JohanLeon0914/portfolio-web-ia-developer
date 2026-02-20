@@ -9,15 +9,21 @@ import clsx from "clsx";
 interface Project {
   id: string;
   title: string;
+  titleEs: string;
   tagline: string;
+  taglineEs: string;
   description: string;
+  descriptionEs: string;
   longDescription: string;
+  longDescriptionEs: string;
   tags: string[];
   landingUrl?: string;
   appUrl?: string;
   featured: boolean;
   role: string;
+  roleEs: string;
   highlights: string[];
+  highlightsEs: string[];
 }
 
 export default function Projects() {
@@ -73,9 +79,11 @@ export default function Projects() {
                       </span>
                     )}
                     <h3 className="font-display font-bold text-3xl text-text">
-                      {project.title}
+                      {locale === "es" ? project.titleEs : project.title}
                     </h3>
-                    <p className="text-accent text-sm font-medium mt-1">{project.tagline}</p>
+                    <p className="text-accent text-sm font-medium mt-1">
+                      {locale === "es" ? project.taglineEs : project.tagline}
+                    </p>
                   </div>
 
                   {/* Links */}
@@ -107,7 +115,7 @@ export default function Projects() {
 
                 {/* Description */}
                 <p className="text-muted leading-relaxed mb-8 max-w-2xl">
-                  {project.description}
+                  {locale === "es" ? project.descriptionEs : project.description}
                 </p>
 
                 <div className="grid md:grid-cols-2 gap-8">
@@ -117,7 +125,7 @@ export default function Projects() {
                       {t("projects.highlights")}
                     </h4>
                     <ul className="flex flex-col gap-2">
-                      {project.highlights.map((h, i) => (
+                      {(locale === "es" ? project.highlightsEs : project.highlights).map((h, i) => (
                         <li key={i} className="flex items-start gap-2 text-sm text-muted">
                           <CheckCircle2 size={13} className="text-accent mt-0.5 flex-shrink-0" />
                           {h}
@@ -141,7 +149,9 @@ export default function Projects() {
                       <p className="text-xs font-mono text-muted uppercase tracking-wider mb-1">
                         {t("projects.role")}
                       </p>
-                      <p className="text-sm text-text font-medium">{project.role}</p>
+                      <p className="text-sm text-text font-medium">
+                      {locale === "es" ? project.roleEs : project.role}
+                    </p>
                     </div>
                   </div>
                 </div>

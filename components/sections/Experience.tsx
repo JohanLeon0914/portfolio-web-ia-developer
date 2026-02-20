@@ -13,13 +13,16 @@ interface Job {
   period: string;
   current: boolean;
   description: string;
+  descriptionEs: string;
   responsibilities: string[];
+  responsibilitiesEs: string[];
   achievements: string[];
+  achievementsEs: string[];
   tags: string[];
 }
 
 export default function Experience() {
-  const { t } = useI18n();
+  const { t, locale } = useI18n();
   const { ref, visible } = useScrollReveal();
   const [jobs, setJobs] = useState<Job[]>([]);
   const [expanded, setExpanded] = useState<string | null>("glocation");
@@ -104,7 +107,7 @@ export default function Experience() {
                 {isOpen && (
                   <div className="px-6 pb-6 pl-14 border-t border-border/40">
                     <p className="text-muted text-sm leading-relaxed mt-4 mb-6">
-                      {job.description}
+                      {locale === "es" ? job.descriptionEs : job.description}
                     </p>
 
                     <div className="grid md:grid-cols-2 gap-6">
@@ -114,7 +117,7 @@ export default function Experience() {
                           {t("experience.responsibilities")}
                         </h4>
                         <ul className="flex flex-col gap-2">
-                          {job.responsibilities.map((r, idx) => (
+                          {(locale === "es" ? job.responsibilitiesEs : job.responsibilities).map((r, idx) => (
                             <li key={idx} className="flex items-start gap-2 text-sm text-muted">
                               <span className="text-border mt-1.5">—</span>
                               {r}
@@ -129,7 +132,7 @@ export default function Experience() {
                           {t("experience.achievements")}
                         </h4>
                         <ul className="flex flex-col gap-2">
-                          {job.achievements.map((a, idx) => (
+                          {(locale === "es" ? job.achievementsEs : job.achievements).map((a, idx) => (
                             <li key={idx} className="flex items-start gap-2 text-sm text-muted">
                               <CheckCircle2 size={13} className="text-accent mt-0.5 flex-shrink-0" />
                               {a}
