@@ -13,6 +13,19 @@
     "code": "ccb8cc87-c8e5-4379-a32b-7875bee0381f"
   },
   {
+    "id": "regresion-lineal",
+    "title": "Regresión Lineal Con Python y Sklearn",
+    "titleEn": "Linear Regression with Python and Sklearn",
+    "platform": "Platzi",
+    "date": "2026-02-23",
+    "dateFormatted": "February 23, 2026",
+    "dateFormattedEs": "23 de Febrero de 2026",
+    "hours": 19,
+    "category": "Machine Learning",
+    "file": "/certificates/diploma-regresion-lineal.pdf",
+    "code": "2579e196-6cf2-4afc-90e5-4e1de8a04e0f"
+  },
+  {
     "id": "algebra-ml-avanzado",
     "title": "Álgebra Lineal y Machine Learning: PCA y SVD",
     "titleEn": "Linear Algebra & Machine Learning: PCA and SVD (Advanced)",
