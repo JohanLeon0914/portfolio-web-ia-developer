@@ -8,7 +8,7 @@
     "dateFormatted": "February 19, 2026",
     "dateFormattedEs": "19 de Febrero de 2026",
     "hours": 19,
-    "category": "Machine Learning",
+    "categories": ["Machine Learning"],
     "file": "/certificates/diploma-machine-learning.pdf",
     "code": "ccb8cc87-c8e5-4379-a32b-7875bee0381f"
   },
@@ -21,7 +21,7 @@
     "dateFormatted": "February 23, 2026",
     "dateFormattedEs": "23 de Febrero de 2026",
     "hours": 19,
-    "category": "Machine Learning",
+    "categories": ["Machine Learning", "Programming", "Mathematics"],
     "file": "/certificates/diploma-regresion-lineal.pdf",
     "code": "2579e196-6cf2-4afc-90e5-4e1de8a04e0f"
   },
@@ -34,7 +34,7 @@
     "dateFormatted": "February 12, 2026",
     "dateFormattedEs": "12 de Febrero de 2026",
     "hours": 11,
-    "category": "Machine Learning",
+    "categories": ["Machine Learning", "Data Science", "Mathematics", "Programming"],
     "file": "/certificates/diploma-algebra-ml-avanzado.pdf",
     "code": "2579e196-6cf2-4afc-90e5-4e1de8a04e0f"
   },
@@ -47,7 +47,7 @@
     "dateFormatted": "January 16, 2026",
     "dateFormattedEs": "16 de Enero de 2026",
     "hours": 14,
-    "category": "Data Science",
+    "categories": ["Data Science", "Mathematics"],
     "file": "/certificates/diploma-ds-probabilidad.pdf",
     "code": "947e605f-5986-4494-82fe-5a7b268fd348"
   },
@@ -60,7 +60,7 @@
     "dateFormatted": "January 10, 2026",
     "dateFormattedEs": "10 de Enero de 2026",
     "hours": 14,
-    "category": "Data Science",
+    "categories": ["Data Science", "Mathematics"],
     "file": "/certificates/diploma-estadistica-descriptiva-2021.pdf",
     "code": "d9f6785c-44ef-4c3b-a857-de2837102c28"
   },
@@ -73,7 +73,7 @@
     "dateFormatted": "December 21, 2025",
     "dateFormattedEs": "21 de Diciembre de 2025",
     "hours": 11,
-    "category": "Machine Learning",
+    "categories": ["Machine Learning", "Data Science", "Mathematics"],
     "file": "/certificates/diploma-algebra-ml.pdf",
     "code": "1d0ef7e0-6487-4030-ae3e-e11d59d12f16"
   },
@@ -86,7 +86,7 @@
     "dateFormatted": "November 14, 2025",
     "dateFormattedEs": "14 de Noviembre de 2025",
     "hours": 16,
-    "category": "Programming",
+    "categories": ["Programming"],
     "file": "/certificates/diploma-fundamentos-python.pdf",
     "code": "537e3dcb-fb66-4694-bb1a-9ac938d6dae8"
   },
@@ -99,7 +99,7 @@
     "dateFormatted": "November 13, 2025",
     "dateFormattedEs": "13 de Noviembre de 2025",
     "hours": 13,
-    "category": "Data Science",
+    "categories": ["Data Science", "Mathematics"],
     "file": "/certificates/diploma-calculo-diferencial-ds.pdf",
     "code": "7f87e573-cb22-40d3-8d88-2c78f0b5b8f4"
   },
@@ -112,7 +112,7 @@
     "dateFormatted": "November 12, 2025",
     "dateFormattedEs": "12 de Noviembre de 2025",
     "hours": 12,
-    "category": "Data Science",
+    "categories": ["Data Science", "Mathematics"],
     "file": "/certificates/diploma-funciones-matematicas.pdf",
     "code": "74ecb855-23cb-49f7-91a6-6276e62d0165"
   },
@@ -125,7 +125,7 @@
     "dateFormatted": "November 2, 2025",
     "dateFormattedEs": "2 de Noviembre de 2025",
     "hours": 3,
-    "category": "Mathematics",
+    "categories": ["Mathematics"],
     "file": "/certificates/diploma-fundamentos-matematicas.pdf",
     "code": "92fa1965-d442-48fa-bdb7-eaff0c02919a"
   },
@@ -138,7 +138,7 @@
     "dateFormatted": "2025",
     "dateFormattedEs": "2025",
     "hours": null,
-    "category": "Programming",
+    "categories": ["Programming", "Mathematics"],
     "file": "/certificates/diploma-algebra-lineal-python.pdf",
     "code": null
   }

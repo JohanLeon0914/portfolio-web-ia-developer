@@ -15,7 +15,7 @@ interface Certificate {
   dateFormatted: string;
   dateFormattedEs: string;
   hours: number | null;
-  category: string;
+  categories: string[];
   file: string;
   code: string | null;
 }
@@ -37,7 +37,7 @@ export default function Certificates() {
   }, []);
 
   const filtered =
-    filter === "All" ? certs : certs.filter((c) => c.category === filter);
+    filter === "All" ? certs : certs.filter((c) => c.categories.includes(filter));
 
   const categoryColors: Record<string, string> = {
     "Machine Learning": "text-accent border-accent/30 bg-accent/5",
@@ -107,13 +107,18 @@ export default function Certificates() {
                 <div className="p-2 rounded-lg bg-border/50">
                   <Award size={16} className="text-accent" />
                 </div>
-                <div
-                  className={clsx(
-                    "text-xs px-2 py-0.5 rounded-full border font-mono flex-shrink-0",
-                    categoryColors[cert.category] || "text-muted border-border"
-                  )}
-                >
-                  {locale === "es" ? t(`certificates.categories.${cert.category}`) : cert.category}
+                <div className="flex flex-wrap gap-1 justify-end flex-1">
+                  {cert.categories.map((cat) => (
+                    <span
+                      key={cat}
+                      className={clsx(
+                        "text-xs px-1.5 py-0.5 rounded-full border font-mono whitespace-nowrap",
+                        categoryColors[cat] || "text-muted border-border"
+                      )}
+                    >
+                      {locale === "es" ? t(`certificates.categories.${cat}`) : cat}
+                    </span>
+                  ))}
                 </div>
               </div>
 
