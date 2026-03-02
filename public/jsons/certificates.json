@@ -26,6 +26,19 @@
     "code": "2579e196-6cf2-4afc-90e5-4e1de8a04e0f"
   },
   {
+    "id": "arboles-desicion-random-forest",
+    "title": "Árboles de Decisión y Random Forest",
+    "titleEn": "Tree Decision and Random Forest",
+    "platform": "Platzi",
+    "date": "2026-03-02",
+    "dateFormatted": "March 2, 2026",
+    "dateFormattedEs": "2 de Marzo de 2026",
+    "hours": 19,
+    "categories": ["Machine Learning", "Programming", "Mathematics"],
+    "file": "/diploma-arboles-machine-learning.pdf",
+    "code": "2379e196-6cf2-4afc-90e5-4e1de8a04e0f"
+  },
+  {
     "id": "algebra-ml-avanzado",
     "title": "Álgebra Lineal y Machine Learning: PCA y SVD",
     "titleEn": "Linear Algebra & Machine Learning: PCA and SVD (Advanced)",
