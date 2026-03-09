@@ -26,6 +26,19 @@
     "code": "2579e196-6cf2-4afc-90e5-4e1de8a04e0f"
   },
   {
+    "id": "regresion-logistica",
+    "title": "Regresión Logística Con Python y Sklearn",
+    "titleEn": "Logistic Regression with Python and Sklearn",
+    "platform": "Platzi",
+    "date": "2026-03-09",
+    "dateFormatted": "Marzo 03, 2026",
+    "dateFormattedEs": "03 de Marzo de 2026",
+    "hours": 19,
+    "categories": ["Machine Learning", "Programming", "Mathematics"],
+    "file": "/certificates/diploma-regresion-logistica.pdf",
+    "code": "2679e196-6cf2-4afc-90e5-4e1de8a04e0f"
+  },
+  {
     "id": "arboles-desicion-random-forest",
     "title": "Árboles de Decisión y Random Forest",
     "titleEn": "Tree Decision and Random Forest",
