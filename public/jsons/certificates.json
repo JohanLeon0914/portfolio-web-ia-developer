@@ -49,7 +49,20 @@
     "hours": 19,
     "categories": ["Machine Learning", "Programming", "Mathematics"],
     "file": "/certificates/diploma-arboles-machine-learning.pdf",
-    "code": "2379e196-6cf2-4afc-90e5-4e1de8a04e0f"
+    "code": "2379e196-6cf2-4afc-90e5-4e1de8a432324"
+  },
+  {
+    "id": "clustering-python-sklearn",
+    "title": "Clustering con Python y Sklearn",
+    "titleEn": "Clustering with Python and Sklearn",
+    "platform": "Platzi",
+    "date": "2026-03-13",
+    "dateFormatted": "March 13, 2026",
+    "dateFormattedEs": "13 de Marzo de 2026",
+    "hours": 19,
+    "categories": ["Machine Learning", "Programming", "Mathematics"],
+    "file": "/certificates/diploma-clustering.pdf",
+    "code": "2479e196-6cf2-4afc-90e5-4e1de8a243234"
   },
   {
     "id": "algebra-ml-avanzado",
