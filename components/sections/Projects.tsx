@@ -3,7 +3,7 @@
 import { useI18n } from "@/i18n";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
 import { useState, useEffect } from "react";
-import { ExternalLink, CheckCircle2, ArrowUpRight } from "lucide-react";
+import { ExternalLink, CheckCircle2, ArrowUpRight, Github } from "lucide-react";
 import clsx from "clsx";
 
 interface Project {
@@ -19,6 +19,7 @@ interface Project {
   tags: string[];
   landingUrl?: string;
   appUrl?: string;
+  githubUrl?: string;
   featured: boolean;
   role: string;
   roleEs: string;
@@ -108,6 +109,17 @@ export default function Projects() {
                       >
                         <ArrowUpRight size={12} />
                         {t("projects.viewApp")}
+                      </a>
+                    )}
+                    {project.githubUrl && (
+                      <a
+                        href={project.githubUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg border border-border text-muted text-xs font-medium hover:text-text hover:border-text/30 transition-all whitespace-nowrap"
+                      >
+                        <Github size={12} />
+                        {t("projects.viewCode")}
                       </a>
                     )}
                   </div>
