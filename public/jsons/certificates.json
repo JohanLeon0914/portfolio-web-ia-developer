@@ -1,5 +1,31 @@
 [
   {
+    "id": "Machine-learning-sklearn",
+    "title": "Curso Profesional de Machine Learning con scikit-learn",
+    "titleEn": "Professional Machine Learning Course with scikit-learn",
+    "platform": "Platzi",
+    "date": "2026-03-20",
+    "dateFormatted": "March 20, 2026",
+    "dateFormattedEs": "20 de Marzo de 2026",
+    "hours": 11,
+    "categories": ["Machine Learning", "Data Science", "Programming"],
+    "file": "/certificates/diploma-scikitlearn.pdf",
+    "code": "2679e196-6cf2-4afc-90e5-4e1de8a04e0f"
+  },
+  {
+    "id": "python-ciencia-datos",
+    "title": "Curso de Python para Ciencia de Datos",
+    "titleEn": "Python for Data Science Course",
+    "platform": "Platzi",
+    "date": "2026-03-18",
+    "dateFormatted": "March 18, 2026",
+    "dateFormattedEs": "18 de Marzo de 2026",
+    "hours": 11,
+    "categories": ["Machine Learning", "Data Science", "Programming"],
+    "file": "/certificates/diploma-python-data-science.pdf",
+    "code": "2679e196-6cf2-4afc-90e5-4e1de8a04e0f"
+  },
+  {
     "id": "ml-fundamentos",
     "title": "Fundamentos de Machine Learning",
     "titleEn": "Machine Learning Fundamentals",
