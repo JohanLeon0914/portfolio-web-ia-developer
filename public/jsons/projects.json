@@ -1,4 +1,50 @@
 [
+    {
+    "id": "lol-worlds-predictor",
+    "title": "LoL Worlds Predictor",
+    "titleEs": "Predictor de Worlds de LoL",
+    "tagline": "League of Legends Match Outcome Prediction with ML",
+    "taglineEs": "Predicción de Resultados de Partidas de League of Legends con ML",
+    "description": "An interactive web application that predicts League of Legends professional match outcomes based on team selection and champion draft. Features real-time win probability calculations powered by a Gradient Boosting ML model trained on historical Worlds and regional league data (2022–2024). I personally built and trained the model using scikit-learn, engineered all features from raw match data, and deployed the prediction API with Flask.",
+    "descriptionEs": "Una aplicación web interactiva que predice el resultado de partidas profesionales de League of Legends basándose en la selección de equipos y el draft de campeones. Incluye cálculo de probabilidades de victoria en tiempo real impulsado por un modelo de ML Gradient Boosting entrenado con datos históricos de Worlds y ligas regionales (2022–2024). Yo mismo construí y entrené el modelo usando scikit-learn, diseñé todas las features desde datos crudos de partidas y desplegué la API de predicción con Flask.",
+    "longDescription": "The LoL Worlds Predictor combines advanced feature engineering with machine learning to forecast professional match results before the game begins. The system processes multiple data sources including head-to-head team history, individual player win rates on specific champions (player-champion WR), lane matchup advantages from champion vs champion data, and team historical performance. The ML pipeline includes Leave-One-Out cross-validation to prevent data leakage in player-champion statistics, RobustScaler normalization, and a Gradient Boosting classifier that achieves ~70% CV accuracy on 2022–2024 data. The frontend allows users to select teams, browse rosters, pick champions for each position, and receive instant predictions with a confidence level indicator based on data availability.",
+    "longDescriptionEs": "El LoL Worlds Predictor combina ingeniería de features avanzada con machine learning para predecir resultados de partidas profesionales antes de que comience el juego. El sistema procesa múltiples fuentes de datos incluyendo historial de enfrentamientos directos entre equipos, win rates individuales de cada jugador con campeones específicos (player-champion WR), ventajas de lane por matchup entre campeones, y rendimiento histórico de equipos. El pipeline de ML incluye validación cruzada Leave-One-Out para evitar data leakage en las estadísticas jugador-campeón, normalización con RobustScaler, y un clasificador Gradient Boosting que alcanza ~70% de accuracy CV en datos de 2022–2024. El frontend permite a los usuarios seleccionar equipos, explorar rosters, elegir campeones para cada posición y recibir predicciones instantáneas con un indicador de nivel de confianza basado en disponibilidad de datos.",
+    "tags": [
+      "Machine Learning",
+      "Data Science",
+      "Python",
+      "Scikit-learn",
+      "Feature Engineering",
+      "Next.js",
+      "TypeScript",
+      "Flask",
+      "Gradient Boosting",
+      "Esports Analytics"
+    ],
+    "appUrl": "https://ml-lol-worlds-2024-frontend.vercel.app",
+    "githubUrl": "https://github.com/JohanLeon0914/ML-LOL-WORLDS-2024",
+    "featured": true,
+    "role": "Full Stack Developer & ML Engineer",
+    "roleEs": "Desarrollador Full Stack e Ingeniero de ML",
+    "highlights": [
+      "Gradient Boosting classifier with ~70% CV accuracy on professional match data",
+      "Advanced feature engineering: player-champion win rate, lane matchups, H2H team history",
+      "Leave-One-Out technique to prevent data leakage in player statistics",
+      "Confidence scoring system (HIGH/MEDIUM/LOW) based on historical data availability",
+      "Interactive draft simulator with champion search and position-aware auto-fill",
+      "RESTful prediction API deployed in production (Flask + Gunicorn)",
+      "Multi-source data pipeline processing 20,000+ professional match records"
+    ],
+    "highlightsEs": [
+      "Clasificador Gradient Boosting con ~70% de accuracy CV en datos de partidas profesionales",
+      "Ingeniería de features avanzada: win rate jugador-campeón, matchups de lane, historial H2H",
+      "Técnica Leave-One-Out para evitar data leakage en estadísticas de jugadores",
+      "Sistema de puntuación de confianza (HIGH/MEDIUM/LOW) basado en disponibilidad de datos históricos",
+      "Simulador de draft interactivo con búsqueda de campeones y auto-fill por posición",
+      "API de predicción REST desplegada en producción (Flask + Gunicorn)",
+      "Pipeline de datos multi-fuente procesando más de 20,000 registros de partidas profesionales"
+    ]
+  },
   {
     "id": "happiness-predictor",
     "title": "Happiness Predictor",
