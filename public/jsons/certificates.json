@@ -1,5 +1,18 @@
 [
   {
+    "id": "redes-neuronales-python-keras",
+    "title": "Redes Neuronales con Python y Keras",
+    "titleEn": "Neural Networks with Python and Keras",
+    "platform": "Platzi",
+    "date": "2026-03-25",
+    "dateFormatted": "March 25, 2026",
+    "dateFormattedEs": "25 de Marzo de 2026",
+    "hours": 12,
+    "categories": ["Machine Learning", "Data Science", "Programming"],
+    "file": "/certificates/diploma-redes-neuronales.pdf",
+    "code": "2679e196-6cf2-4afc-90e5-4e1de8a04e0f"
+  },
+  {
     "id": "Machine-learning-sklearn",
     "title": "Curso Profesional de Machine Learning con scikit-learn",
     "titleEn": "Professional Machine Learning Course with scikit-learn",
