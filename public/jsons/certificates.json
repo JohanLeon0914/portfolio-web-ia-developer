@@ -13,6 +13,19 @@
     "code": "2679e196-6cf2-4afc-90e5-4e1de8a04e0f"
   },
   {
+    "id": "redes-neuronales-pythorch",
+    "title": "Redes Neuronales con Pythorch",
+    "titleEn": "Neural Networks with Pythorch",
+    "platform": "Platzi",
+    "date": "2026-03-28",
+    "dateFormatted": "March 28, 2026",
+    "dateFormattedEs": "28 de Marzo de 2026",
+    "hours": 12,
+    "categories": ["Machine Learning", "Data Science", "Programming"],
+    "file": "/certificates/diploma-pytorch.pdf",
+    "code": "2679e196-6cf2-4afc-90e5-4e1de8a04e0f"
+  },
+  {
     "id": "Machine-learning-sklearn",
     "title": "Curso Profesional de Machine Learning con scikit-learn",
     "titleEn": "Professional Machine Learning Course with scikit-learn",

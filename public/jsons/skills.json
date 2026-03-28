@@ -16,6 +16,16 @@
     { "name": "BigQuery", "level": 78 },
     { "name": "REST APIs", "level": 90 }
   ],
+  "Machine Learning & Deep Learning": [
+    { "name": "Python", "level": 85 },
+    { "name": "PyTorch", "level": 80 },
+    { "name": "TensorFlow", "level": 75 },
+    { "name": "Keras", "level": 75 },
+    { "name": "Scikit-learn", "level": 85 },
+    { "name": "Hugging Face", "level": 85 },
+    { "name": "Pandas", "level": 90 },
+    { "name": "NumPy", "level": 88 }
+  ],
   "cloud": [
     { "name": "Google Cloud", "level": 85 },
     { "name": "Cloud Functions", "level": 88 },

@@ -12,6 +12,7 @@ interface Skill {
 interface SkillsData {
   frontend: Skill[];
   backend: Skill[];
+  "Machine Learning & Deep Learning": Skill[];
   cloud: Skill[];
   tools: Skill[];
 }
@@ -31,6 +32,7 @@ export default function Skills() {
     ? [
         { label: t("skills.frontend"), data: skills.frontend, color: "accent" },
         { label: t("skills.backend"), data: skills.backend, color: "accent-2" },
+        { label: "Machine Learning & Deep Learning", data: skills["Machine Learning & Deep Learning"], color: "accent-4" },
         { label: t("skills.cloud"), data: skills.cloud, color: "accent-3" },
         { label: t("skills.tools"), data: skills.tools, color: "accent" },
       ]
@@ -55,7 +57,7 @@ export default function Skills() {
         </h2>
         <p className="text-muted mb-12">{t("skills.subtitle")}</p>
 
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {categories.map(({ label, data, color }) => (
             <div
               key={label}
@@ -66,7 +68,8 @@ export default function Skills() {
                   "font-display font-semibold text-sm uppercase tracking-wider mb-6",
                   color === "accent" && "text-accent",
                   color === "accent-2" && "text-accent-2",
-                  color === "accent-3" && "text-accent-3"
+                  color === "accent-3" && "text-accent-3",
+                  color === "accent-4" && "text-yellow-400"
                 )}
               >
                 {label}
@@ -79,7 +82,8 @@ export default function Skills() {
                       "px-3 py-1.5 rounded-lg text-xs font-medium border transition-all hover:scale-105",
                       color === "accent" && "bg-accent/10 border-accent/30 text-accent hover:bg-accent/20",
                       color === "accent-2" && "bg-accent-2/10 border-accent-2/30 text-accent-2 hover:bg-accent-2/20",
-                      color === "accent-3" && "bg-accent-3/10 border-accent-3/30 text-accent-3 hover:bg-accent-3/20"
+                      color === "accent-3" && "bg-accent-3/10 border-accent-3/30 text-accent-3 hover:bg-accent-3/20",
+                      color === "accent-4" && "bg-yellow-400/10 border-yellow-400/30 text-yellow-400 hover:bg-yellow-400/20"
                     )}
                   >
                     {skill.name}
