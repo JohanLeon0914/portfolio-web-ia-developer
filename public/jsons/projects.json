@@ -1,5 +1,52 @@
 [
   {
+    "id": "grdx1",
+    "title": "GRDX1",
+    "titleEs": "GRDX1",
+    "tagline": "End-to-End Machine Learning Platform for Sports Prediction",
+    "taglineEs": "Plataforma End-to-End de Machine Learning para Prediccion Deportiva",
+    "description": "An end-to-end machine learning platform for sports prediction, focused on Formula 1 race intelligence, UFC support, and a scalable architecture for future sports models. GRDX1 combines sport-specific feature engineering, temporal validation, ML inference services on Google Cloud Run, and a production web app for data-backed predictions and model explainability.",
+    "descriptionEs": "Plataforma end-to-end de machine learning para prediccion deportiva, enfocada en inteligencia de carreras de Formula 1, soporte para UFC y una arquitectura escalable para futuros modelos en otros deportes. GRDX1 combina ingenieria de caracteristicas especifica por deporte, validacion temporal, servicios de inferencia ML en Google Cloud Run y una aplicacion web en produccion con predicciones basadas en datos y explicabilidad del modelo.",
+    "longDescription": "GRDX1 is an independent sports analytics platform built to predict and analyze competitive events using machine learning. The current production experience focuses on Formula 1 race predictions, race analytics, upcoming events, historical data, and model signals, with UFC support and future models planned for other sports. The system uses historical, temporal, athlete, team, and event data while avoiding data leakage through sport-specific feature engineering and temporal validation. The Formula 1 ranking system was built with XGBoost/XGBRanker and evaluated with ranking and forecasting metrics such as NDCG, Spearman correlation, Kendall Tau, MAE, and Top-K performance. Production inference runs on Google Cloud Run, and the backend uses Supabase/PostgreSQL for authentication, prediction history, usage quotas, and database migrations.",
+    "longDescriptionEs": "GRDX1 es una plataforma independiente de analitica deportiva construida para predecir y analizar eventos competitivos con machine learning. La experiencia en produccion se enfoca actualmente en predicciones de carreras de Formula 1, analisis de carrera, proximos eventos, datos historicos y senales del modelo, con soporte para UFC y futuros modelos para otros deportes. El sistema utiliza datos historicos, temporales, de atletas, equipos y eventos, evitando data leakage mediante ingenieria de caracteristicas especifica por deporte y validacion temporal. El sistema de ranking de Formula 1 fue construido con XGBoost/XGBRanker y evaluado con metricas de ranking y prediccion como NDCG, correlacion de Spearman, Kendall Tau, MAE y Top-K. La inferencia en produccion corre en Google Cloud Run, y el backend usa Supabase/PostgreSQL para autenticacion, historial de predicciones, cuotas de uso y migraciones de base de datos.",
+    "tags": [
+      "Machine Learning",
+      "Sports Analytics",
+      "Formula 1",
+      "UFC",
+      "XGBoost",
+      "XGBRanker",
+      "Python",
+      "Feature Engineering",
+      "Google Cloud Run",
+      "Supabase",
+      "PostgreSQL",
+      "Next.js",
+      "Model Explainability",
+      "Full Stack"
+    ],
+    "appUrl": "https://www.grdx1.com",
+    "featured": true,
+    "role": "Full Stack Developer & ML Engineer",
+    "roleEs": "Desarrollador Full Stack e Ingeniero de ML",
+    "highlights": [
+      "Built an end-to-end ML platform for sports prediction with Formula 1, UFC, and future sport-model support",
+      "Designed sport-specific feature engineering pipelines using historical, temporal, athlete, team, and event data while preventing data leakage",
+      "Created a Formula 1 ranking system with XGBoost/XGBRanker, temporal validation, NDCG, Spearman, Kendall Tau, MAE, and Top-K evaluation",
+      "Deployed production ML inference services on Google Cloud Run with prediction outputs and model explainability in the web app",
+      "Developed the Supabase/PostgreSQL backend for authentication, prediction history, usage quotas, and database migrations",
+      "Used AI development agents to accelerate frontend work, refactoring, and ML feature engineering"
+    ],
+    "highlightsEs": [
+      "Desarrolle una plataforma end-to-end de ML para prediccion deportiva con soporte para Formula 1, UFC y futuros modelos de otros deportes",
+      "Disene pipelines de ingenieria de caracteristicas por deporte usando datos historicos, temporales, de atletas, equipos y eventos, evitando data leakage",
+      "Construi un sistema de ranking para Formula 1 con XGBoost/XGBRanker, validacion temporal, NDCG, Spearman, Kendall Tau, MAE y Top-K",
+      "Desplegue servicios de inferencia ML en produccion con Google Cloud Run, integrando predicciones y explicabilidad en la aplicacion web",
+      "Desarrolle el backend en Supabase/PostgreSQL para autenticacion, historial de predicciones, cuotas de uso y migraciones de base de datos",
+      "Utilice agentes de IA para acelerar tareas de frontend, refactorizacion e ingenieria de caracteristicas para ML"
+    ]
+  },
+  {
     "id": "lol-neural-network-predictor",
     "title": "LoL Neural Network Predictor",
     "titleEs": "Predictor de LoL con Red Neuronal",
